@@ -42,6 +42,21 @@ left: 0;
 
 }
 
+#subtitlemain {
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display: block;
+    color: white;
+    height: max-content;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
 #titleone {
 	position: absolute;
 	top: 300%;
