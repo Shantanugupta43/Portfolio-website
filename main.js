@@ -16,8 +16,10 @@ var audio = function() {
         sound.setBuffer(buffer);
         sound.setVolume(1);
         sound.setLoop( true );
+        
         sound.setVolume( 0.4 );
         sound.play();
+        
 
 
 
@@ -63,6 +65,17 @@ mesh.scale.y =0.8;
 mesh.scale.z =0.8;
 scene.add(mesh);
 
+var spherenewmain = new THREE.SphereGeometry(1,10,1)
+var matcolornewmain = new THREE.MeshLambertMaterial({color:0xFFFFFF});
+
+var meshnewmain=new THREE.Mesh(spherenewmain,matcolornewmain);
+meshnewmain.scale.x =0.8;
+meshnewmain.scale.y =0.8;
+meshnewmain.scale.z =0.8;
+meshnewmain.position.x = 0.10;
+meshnewmain.position.y = -3.0;
+scene.add(meshnewmain);
+
 var sphere1 = new THREE.SphereGeometry(1,10,1)
 var matcolor1 = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
@@ -106,6 +119,10 @@ scene.add(light);
 var render = function(){
 
     requestAnimationFrame(render);
+    meshnewmain.rotation.y += 0.006;
+    meshnewmain.position.y -= 0.00078;
+
+    mesh.position.y -= 0.0000079;
 
     
     mesh.rotation.y += 0.006;
