@@ -200,7 +200,7 @@ left: 0;
 }
 
 .skem{
-	background-color: rgb(36, 31, 41);
+	background-color: rgb(207, 207, 207);
 	border-radius: 15px;
 	padding: 10px 50px;
 }
@@ -424,7 +424,7 @@ b{
   
 .containerrevealsix.active{
 	position: relative;
-	transform: translateY(5880px);
+	transform: translateY(5680px);
 	opacity: 1;
   }
 
