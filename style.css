@@ -138,7 +138,8 @@ left: 0;
 #subtitletwo {
 	position: absolute;
 	top: 620%;
-	width: 100%;
+	width: 80%;
+	margin-left: 9%;
 	text-align: center;
 	z-index: 100;
 	display: block;
@@ -153,7 +154,8 @@ left: 0;
 #subtitlethree {
 	position: absolute;
 	top: 680%;
-	width: 100%;
+	width: 80%;
+	margin-left: 9%;
 	text-align: center;
 	z-index: 100;
 	display: block;
@@ -180,12 +182,14 @@ left: 0;
 }
 
 #subtitlefive {
-	position: absolute;
-	top: 790%;
-	width: 100%;
-	text-align: center;
-	z-index: 100;
-	display: block;
+    position: absolute;
+    top: 790%;
+    width: 80%;
+    margin-left: 9%;
+    text-align: center;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
     color: white;
     height: max-content;
     font-family: 'Righteous', cursive;
