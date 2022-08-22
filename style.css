@@ -23,8 +23,12 @@ left: 0;
     color: white;
     height: max-content;
     font-family: 'Silkscreen';
-    font-size: 55px;
+
     letter-spacing: 10px;
+}
+
+h1{
+	font-size: 45px;
 }
 
 #subtitle {
