@@ -56,16 +56,16 @@ audio();
 
 
 
-var sphere = new THREE.SphereGeometry(1,10,1)
+var sphere = new THREE.RingGeometry(0,1,0)
 var matcolor = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
 var mesh=new THREE.Mesh(sphere,matcolor);
-mesh.scale.x =0.8;
+mesh.scale.x =0.7;
 mesh.scale.y =0.8;
 mesh.scale.z =0.8;
 scene.add(mesh);
 
-var spherenewmain = new THREE.SphereGeometry(1,10,1)
+var spherenewmain = new THREE.RingGeometry(0,1,0)
 var matcolornewmain = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
 var meshnewmain=new THREE.Mesh(spherenewmain,matcolornewmain);
@@ -76,27 +76,32 @@ meshnewmain.position.x = 0.10;
 meshnewmain.position.y = -3.0;
 scene.add(meshnewmain);
 
-var sphere1 = new THREE.SphereGeometry(1,10,1)
-var matcolor1 = new THREE.MeshLambertMaterial({color:0xFFFFFF});
+ambient = new THREE.AmbientLight(0x583000);
+
+
+scene.add(ambient);
+
+var sphere1 = new THREE.TorusKnotGeometry(8, 0.4, 0.4, 16)
+var matcolor1 = new THREE.MeshLambertMaterial({color:0xFF3def});
 
 var mesh1=new THREE.Mesh(sphere1,matcolor1);
 mesh1.position.x = 1.30;
 mesh1.position.y = -1.80;
-mesh1.scale.x =0.3;
-mesh1.scale.y =0.3;
-mesh1.scale.z =0.3;
+mesh1.scale.x =0.065;
+mesh1.scale.y =0.065;
+mesh1.scale.z =0.065;
 scene.add(mesh1);
 
-var sphere2 = new THREE.SphereGeometry(1,10,1)
-var matcolor2 = new THREE.MeshLambertMaterial({color:0xFFFFFF});
+var sphere2 = new THREE.TorusKnotGeometry(8, 0.4, 0.4, 16)
+var matcolor2 = new THREE.MeshLambertMaterial({color:0xf20222});
 
 var mesh2 =new THREE.Mesh(sphere2,matcolor2);
 mesh2.position.x = -1.30;
-mesh2.position.y = -3.80;
+mesh2.position.y = -4.80;
 
-mesh2.scale.x =0.3;
-mesh2.scale.y =0.3;
-mesh2.scale.z =0.3;
+mesh2.scale.x =0.08;
+mesh2.scale.y =0.08;
+mesh2.scale.z =0.08;
 scene.add(mesh2);
 
 control = new THREE.OrbitControls(camera, renderer.domElement)
@@ -111,26 +116,29 @@ control.maxDistance = 1000;
 
 
 
-var light=new THREE.PointLight(0xFFFFFF,1,500)
-light.position.set(10,0,25);
+var light=new THREE.PointLight(0xFFFFFF,1,70)
+light.position.set(12,0,25);
 scene.add(light);
 
 
 var render = function(){
 
     requestAnimationFrame(render);
-    meshnewmain.rotation.y += 0.006;
-    meshnewmain.position.y -= 0.00078;
+    meshnewmain.rotation.z += 0.006;
+    meshnewmain.position.y -= 0.00098;
+   
 
     mesh.position.y -= 0.0000079;
+   
 
     
-    mesh.rotation.y += 0.006;
-    mesh.position.y -= 0.00078;
+    mesh.rotation.z += 0.006;
+    mesh.position.y -= 0.00098;
     
 
     mesh1.rotation.z += 0.02;
     mesh2.rotation.z -= 0.02;
+
 
   
     
