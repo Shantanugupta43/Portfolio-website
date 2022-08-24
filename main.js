@@ -83,7 +83,7 @@ ambient = new THREE.AmbientLight(0x583000);
 scene.add(ambient);
 
 var sphere1 = new THREE.TorusKnotGeometry(8, 0.4, 0.4, 16)
-var matcolor1 = new THREE.MeshLambertMaterial({color:0xFF3def});
+var matcolor1 = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
 var mesh1=new THREE.Mesh(sphere1,matcolor1);
 mesh1.position.x = 1.30;
@@ -94,7 +94,7 @@ mesh1.scale.z =0.065;
 scene.add(mesh1);
 
 var sphere2 = new THREE.TorusKnotGeometry(8, 0.4, 0.4, 16)
-var matcolor2 = new THREE.MeshLambertMaterial({color:0xf20222});
+var matcolor2 = new THREE.MeshLambertMaterial({color:0xffffff});
 
 var mesh2 =new THREE.Mesh(sphere2,matcolor2);
 mesh2.position.x = -1.30;
@@ -114,11 +114,8 @@ control.maxDistance = 1000;
 
 
 
-
-
-
-var light=new THREE.PointLight(0xFFFFFF,1,70)
-light.position.set(12,0,25);
+var light=new THREE.PointLight(0x0F8FF,1,100)
+light.position.set(12,20,40);
 scene.add(light);
 
 
