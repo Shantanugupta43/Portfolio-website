@@ -11,10 +11,10 @@ var audio = function() {
     var sound = new THREE.Audio(listener);
     var loader = new THREE.AudioLoader();
 
-    loader.load('Wonder.mp3', (buffer)=> {
+    loader.load('Cinema.mp3', (buffer)=> {
 
         sound.setBuffer(buffer);
-        sound.setVolume(1);
+        sound.setVolume(0.7);
         sound.setLoop( true );
         
         sound.setVolume( 0.4 );
@@ -53,6 +53,9 @@ window.addEventListener('resize',()=>{
 })
 
 audio();
+
+
+
 
 
 
