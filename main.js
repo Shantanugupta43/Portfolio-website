@@ -40,6 +40,53 @@ camera.position.z = 1.2;
 
 var renderer=new THREE.WebGLRenderer({antialias:true});
 renderer.setClearColor("#000000");
+
+myinterval = setInterval(colorchange, 17000);
+
+
+
+
+
+
+function colorchange(){
+
+    renderer.setClearColor("#FFFFFF");
+    
+    
+    setInterval(colorchangereset,300);
+
+    function colorchangereset(){
+
+        renderer.setClearColor("#000000");
+
+    }
+
+    setInterval(colorflick,5000);
+
+    function colorflick() {
+
+        renderer.setClearColor("#FFFFFF");
+
+        setInterval(colorchangeresetone,300);
+
+        function colorchangeresetone(){
+    
+            renderer.setClearColor("#000000");
+    
+        }
+
+
+    }
+
+    
+
+}
+
+
+
+
+
+
 renderer.setSize(window.innerWidth,window.innerHeight);
 
 document.body.appendChild(renderer.domElement);
