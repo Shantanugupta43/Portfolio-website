@@ -56,23 +56,24 @@ audio();
 
 
 
-var sphere = new THREE.RingGeometry(0,1,0)
+var sphere = new THREE.SphereGeometry(1,9,2)
 var matcolor = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
 var mesh=new THREE.Mesh(sphere,matcolor);
-mesh.scale.x =0.7;
+mesh.scale.x =0.8;
 mesh.scale.y =0.8;
 mesh.scale.z =0.8;
+mesh.position.x = 0.00;
 scene.add(mesh);
 
-var spherenewmain = new THREE.RingGeometry(0,1,0)
+var spherenewmain = new THREE.SphereGeometry(1,9,2)
 var matcolornewmain = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
 var meshnewmain=new THREE.Mesh(spherenewmain,matcolornewmain);
 meshnewmain.scale.x =0.8;
 meshnewmain.scale.y =0.8;
 meshnewmain.scale.z =0.8;
-meshnewmain.position.x = 0.10;
+meshnewmain.position.x = 0.00;
 meshnewmain.position.y = -3.0;
 scene.add(meshnewmain);
 
@@ -124,16 +125,16 @@ scene.add(light);
 var render = function(){
 
     requestAnimationFrame(render);
-    meshnewmain.rotation.z += 0.006;
-    meshnewmain.position.y -= 0.00098;
+    meshnewmain.rotation.y += 0.006;
+    meshnewmain.position.y -= 0.00078;
    
 
     mesh.position.y -= 0.0000079;
    
 
     
-    mesh.rotation.z += 0.006;
-    mesh.position.y -= 0.00098;
+    mesh.rotation.y += 0.006;
+    mesh.position.y -= 0.00078;
     
 
     mesh1.rotation.z += 0.02;
