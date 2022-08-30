@@ -43,7 +43,7 @@ camera.position.y = 1.4;
 var renderer=new THREE.WebGLRenderer({antialias:true});
 renderer.setClearColor("#000000");
 
-myinterval = setInterval(colorchange, 17000);
+
 
 
 
@@ -59,7 +59,6 @@ function updateCamera(ev) {
 }
 
 window.addEventListener("scroll", updateCamera);
-
 
 
 
