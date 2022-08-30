@@ -41,7 +41,7 @@ camera.position.y = 1.4;
 
 
 var renderer=new THREE.WebGLRenderer({antialias:true});
-renderer.setClearColor("#000000");
+renderer.setClearColor("#FFFFFF");
 
 myinterval = setInterval(colorchange, 17000);
 
