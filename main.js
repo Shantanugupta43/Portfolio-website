@@ -11,7 +11,7 @@ var audio = function() {
     var sound = new THREE.Audio(listener);
     var loader = new THREE.AudioLoader();
 
-    loader.load('Cinema.mp3', (buffer)=> {
+    loader.load('dreamyaud.mp3', (buffer)=> {
 
         sound.setBuffer(buffer);
         sound.setVolume(0.7);
