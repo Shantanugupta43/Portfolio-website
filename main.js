@@ -36,7 +36,7 @@ var scene= new THREE.Scene();
 var camera= new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000)
 
 camera.position.z = 1.3;
-camera.position.y = 1.6;
+camera.position.y = 1.4;
 
 
 
@@ -51,7 +51,7 @@ function updateCamera(ev) {
     let div1 = document.getElementById("div1");
     camera.position.z = 1.3;
     
-    camera.position.y = 1.7 - window.scrollY / 700.0;
+    camera.position.y = 1.4 - window.scrollY / 700.0;
     
 
     
