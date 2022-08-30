@@ -64,39 +64,6 @@ window.addEventListener("scroll", updateCamera);
 
 
 
-function colorchange(){
-
-    renderer.setClearColor("#FFFFFF");
-    
-    
-    setInterval(colorchangereset,300);
-
-    function colorchangereset(){
-
-        renderer.setClearColor("#000000");
-
-    }
-
-    setInterval(colorflick,5000);
-
-    function colorflick() {
-
-        renderer.setClearColor("#FFFFFF");
-
-        setInterval(colorchangeresetone,300);
-
-        function colorchangeresetone(){
-    
-            renderer.setClearColor("#000000");
-    
-        }
-
-
-    }
-
-    
-
-}
 
 
 
