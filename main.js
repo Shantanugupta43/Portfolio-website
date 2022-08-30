@@ -127,7 +127,7 @@ meshnewmain.position.x = 0.00;
 meshnewmain.position.y = -3.0;
 scene.add(meshnewmain);
 
-ambient = new THREE.AmbientLight(0x583000);
+ambient = new THREE.AmbientLight(0x580000);
 
 
 scene.add(ambient);
