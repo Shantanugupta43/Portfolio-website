@@ -35,7 +35,9 @@ var audio = function() {
 var scene= new THREE.Scene();
 var camera= new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000)
 
-camera.position.z = 1.2;
+camera.position.z = 1.3;
+camera.position.y = 1.6;
+
 
 
 var renderer=new THREE.WebGLRenderer({antialias:true});
@@ -43,6 +45,20 @@ renderer.setClearColor("#000000");
 
 myinterval = setInterval(colorchange, 17000);
 
+
+
+function updateCamera(ev) {
+    let div1 = document.getElementById("div1");
+    camera.position.z = 1.3;
+    
+    camera.position.y = 1.7 - window.scrollY / 700.0;
+    
+
+    
+
+}
+
+window.addEventListener("scroll", updateCamera);
 
 
 
@@ -124,7 +140,7 @@ meshnewmain.scale.x =0.8;
 meshnewmain.scale.y =0.8;
 meshnewmain.scale.z =0.8;
 meshnewmain.position.x = 0.00;
-meshnewmain.position.y = -3.0;
+meshnewmain.position.y = -3.5;
 scene.add(meshnewmain);
 
 ambient = new THREE.AmbientLight(0x580000);
@@ -137,7 +153,7 @@ var matcolor1 = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
 var mesh1=new THREE.Mesh(sphere1,matcolor1);
 mesh1.position.x = 1.30;
-mesh1.position.y = -1.80;
+mesh1.position.y = -2.00;
 mesh1.scale.x =0.065;
 mesh1.scale.y =0.065;
 mesh1.scale.z =0.065;
@@ -148,7 +164,7 @@ var matcolor2 = new THREE.MeshLambertMaterial({color:0xffffff});
 
 var mesh2 =new THREE.Mesh(sphere2,matcolor2);
 mesh2.position.x = -1.30;
-mesh2.position.y = -4.80;
+mesh2.position.y = -5.80;
 
 mesh2.scale.x =0.08;
 mesh2.scale.y =0.08;
@@ -173,15 +189,16 @@ var render = function(){
 
     requestAnimationFrame(render);
     meshnewmain.rotation.y += 0.006;
-    meshnewmain.position.y -= 0.00078;
+    
    
 
-    mesh.position.y -= 0.0000079;
+   
+    
    
 
     
     mesh.rotation.y += 0.006;
-    mesh.position.y -= 0.00078;
+    
     
 
     mesh1.rotation.z += 0.02;
