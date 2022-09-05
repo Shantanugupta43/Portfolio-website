@@ -477,7 +477,7 @@ b{
 }
 
 /* For Mobile Portrait View */
-@media screen and (max-device-width: 480px)
+@media screen and (max-device-width: 680px)
 and (orientation: portrait) {
   #title {
 
@@ -596,3 +596,277 @@ img {
 
 
 }
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+		
+		
+		.reveal.active {
+			position: relative;
+			transform: translateY(552px);
+			opacity: 1;
+		}
+
+		#subtitleone{
+			margin-left: 31px;
+		}
+
+		#titleone{
+			top: 220%;
+		}
+
+		#titletwo{
+			top: 440%;
+		}
+
+		#titlethree{
+			top: 708%;
+		}
+
+		#subtitlesix{
+			margin-left: 10%;
+		}
+
+
+		#subtitlefour{
+			width: 82%;
+			margin-left: 42px;
+		}
+
+		#subtitleseven {
+			margin-left: 26px;
+		}
+
+		#titlefour{
+			top: 930%
+		}
+
+		.git {
+			margin-left: 70%;
+		}
+
+		.lin {
+			margin-left: 70%;
+		}
+
+
+
+	}
+
+
+	@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+
+
+		.reveal.active {
+			position: relative;
+			transform: translateY(540px);
+			opacity: 1;
+		}
+
+		#titleone{
+			top: 220%;
+		}
+
+		#subtitlefour{
+			width: 82%;
+			margin-left: 42px;
+		}
+
+		#titletwo{
+			top: 470%;
+		}
+
+		#titlethree{
+			top: 750%;
+		}
+
+		#titlefour{
+			top: 990%;
+		}
+
+	 }
+
+
+	 /* Pixel 5 */
+	 @media only screen 
+    and (device-width: 393px) 
+    and (device-height: 851px) 
+     {
+
+
+		.reveal.active {
+			position: relative;
+			transform: translateY(544px);
+			opacity: 1;
+		}
+
+		#titleone{
+			top: 220%;
+		}
+
+		#subtitlefour{
+			width: 82%;
+			margin-left: 42px;
+		}
+
+		#titletwo{
+			top: 470%;
+		}
+
+		#titlethree{
+			top: 750%;
+		}
+
+		#titlefour{
+			top: 990%;
+		}
+
+	 }
+
+
+	 /* Samsung Galaxy s8+ */
+	 @media only screen 
+    and (device-width: 360px) 
+    and (device-height: 740px) 
+     {
+
+
+		.reveal.active {
+			position: relative;
+			transform: translateY(544px);
+			opacity: 1;
+		}
+
+		#titleone{
+			top: 220%;
+		}
+
+		#subtitlefour{
+			width: 82%;
+			margin-left: 42px;
+		}
+
+		#titletwo{
+			top: 540%;
+		}
+
+		#titlethree{
+			top: 855%;
+		}
+
+		#titlefour{
+			top: 1120%;
+		}
+
+		.containerreveal.active {
+			position: relative;
+			transform: translateY(1778px);
+			opacity: 1;
+		}
+
+	 }
+
+
+
+
+	 /* Samsung Galaxy s20 Ultra */
+	 @media only screen 
+    and (device-width: 412px) 
+    and (device-height: 915px) 
+     {
+
+
+		.reveal.active {
+			position: relative;
+			transform: translateY(586px);
+			opacity: 1;
+		}
+
+		#titleone{
+			top: 220%;
+		}
+
+		#subtitlefour{
+			width: 82%;
+			margin-left: 42px;
+		}
+
+		#titletwo{
+			top: 430%;
+		}
+
+		#titlethree{
+			top: 690%;
+		}
+
+		#titlefour{
+			top: 910%;
+		}
+
+		.containerreveal.active {
+			position: relative;
+			transform: translateY(2130px);
+			opacity: 1;
+		}
+
+	 }
+
+
+	 /* ipad air */
+	 @media only screen 
+    and (device-width: 820px) 
+    and (device-height: 1180px) 
+     {
+
+
+		#subtitlemain, #subtitletwo, #title, #subtitle,#titleone,#subtitlethree,#subtitlefour,#subtitlefive,#subtitlesix,#subtitleseven,#titletwo,#titlethree,#titlefour{
+			width: 114%;
+		}
+
+		#subtitleone{
+
+			width: 80%;
+		}
+
+		.reveal.active {
+			position: relative;
+			transform: translateY(705px);
+			opacity: 1;
+		}
+
+		#titleone{
+			top: 160%;
+		}
+
+			#subtitlefour {
+				width: 100%;
+				margin-left: 25%;
+			}
+
+
+		#titletwo{
+			top: 290%;
+		}
+
+		#titlethree{
+			top: 460%;
+		}
+
+		#titlefour{
+			top: 620%;
+		}
+
+		.containerreveal.active {
+			position: relative;
+			transform: translateY(2130px);
+			opacity: 1;
+		}
+
+	 }
+
+	
