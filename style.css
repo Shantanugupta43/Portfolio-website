@@ -2,6 +2,7 @@ body{
 margin:0;
 height:100vh;
 
+
 }   
 canvas{
 
@@ -9,6 +10,7 @@ display:block;
 position: fixed;
 top: 0;
 left: 0;
+
 
 
 }
@@ -214,7 +216,7 @@ b{
 }
 
 .button {
-	padding: 10px 50px;
+	padding: 10px 44px;
 	font-size: 24px;
 	text-align: center;
 	cursor: pointer;
@@ -446,3 +448,151 @@ b{
 	transform: translateY(7500px);
 	opacity: 1;
   }
+
+
+.popup .overlay {
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.7);
+	z-index: 1;
+
+
+}
+  
+.popup .content{
+	position: absolute;
+	top: 965%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width:  450px;
+	height: 220px;
+	z-index: 2;
+	text-align: center;
+	padding: 20px;
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  #title {
+
+	font-size: 35px;
+
+  }
+
+  .reveal.active {
+    position: relative;
+    transform: translateY(447px);
+    opacity: 1;
+}
+
+.containerreveal.active {
+    position: relative;
+    transform: translateY(2090px);
+    opacity: 1;
+}
+
+.me {
+    height: 458px;
+    width: 409px;
+    margin-left: 8%;
+}
+
+.containerrevealtwo.active {
+    position: relative;
+    transform: translateY(4116px);
+    opacity: 1;
+}
+
+.containerrevealthree.active {
+    position: relative;
+    transform: translateY(4804px);
+    opacity: 1;
+}
+
+.containerrevealfour.active {
+    position: relative;
+    transform: translateY(5215px);
+    opacity: 1;
+}
+
+.containerrevealfive.active {
+    position: relative;
+    transform: translateY(5744px);
+    opacity: 1;
+}
+
+.containerrevealsix.active {
+    position: relative;
+    transform: translateY(6453px);
+    opacity: 1;
+}
+
+img {
+	width: 343px;
+}
+
+#subtitlesix{
+	margin-left: 5%;
+}
+
+.skem {
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    padding: 0px 0px;
+}
+
+.containerrevealseven.active {
+    position: relative;
+    transform: translateY(8499px);
+    opacity: 1;
+}
+
+#subtitleseven{
+	display: flex;
+	flex-direction: column;
+}
+
+.git{
+	margin-left: 80%;
+}
+
+.lin{
+	margin-left: 80%;
+}
+
+.Github {
+    height: 416px;
+    width: 377px;
+}
+
+.linkedin{
+	height: 355px;
+    width: 315px;
+    margin-left: 30px;
+}
+
+#titleone{
+	font-size: 35px;
+}
+
+#titletwo{
+	font-size: 35px;
+}
+
+#titlethree{
+	font-size: 35px;
+}
+
+#titlefour{
+	font-size: 35px;
+}
+
+
+
+}
