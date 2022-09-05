@@ -141,6 +141,7 @@ control = new THREE.OrbitControls(camera, renderer.domElement)
 
 control.minDistance = 1;
 control.maxDistance = 1000;
+control.enabled =false;
 
 
 
