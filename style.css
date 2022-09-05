@@ -738,7 +738,7 @@ img {
 
 		.reveal.active {
 			position: relative;
-			transform: translateY(655px);
+			transform: translateY(544px);
 			opacity: 1;
 		}
 
