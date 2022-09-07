@@ -76,7 +76,7 @@ left: 0;
 
 #titlethree {
 	position: absolute;
-	top: 940%;
+	top: 1550%;
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -91,7 +91,7 @@ left: 0;
 
 #titlefour {
 	position: absolute;
-	top: 1250%;
+	top: 2130%;
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -118,12 +118,13 @@ left: 0;
     font-family: 'Righteous', cursive;
     font-size: 20px;
     margin-top: 20px;
+	margin-left: 3%;
 
 }
 
 #titletwo {
 	position: absolute;
-	top: 600%;
+	top: 850%;
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -339,7 +340,7 @@ b{
 }
 
 .reveal{
-	transform: translateY(100px);
+	transform: translateY(400px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -347,12 +348,12 @@ b{
   
 .reveal.active{
 	position: relative;
-	transform: translateY(380px);
+	transform: translateY(535px);
 	opacity: 1;
   }
 
 .containerreveal{
-	transform: translateY(1510px);
+	transform: translateY(2510px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -360,13 +361,13 @@ b{
   
 .containerreveal.active{
 	position: relative;
-	transform: translateY(1900px);
+	transform: translateY(2814px);
 	opacity: 1;
   }
 
 
 .containerrevealtwo{
-	transform: translateY(3300px);
+	transform: translateY(5700px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -374,12 +375,12 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(3700px);
+	transform: translateY(5890px);
 	opacity: 1;
   }
 
 .containerrevealthree{
-	transform: translateY(3900px);
+	transform: translateY(6530px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -387,12 +388,12 @@ b{
   
 .containerrevealthree.active{
 	position: relative;
-	transform: translateY(4090px);
+	transform: translateY(6626px);
 	opacity: 1;
   }
 
 .containerrevealfour{
-	transform: translateY(4200px);
+	transform: translateY(7030px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -400,13 +401,13 @@ b{
   
 .containerrevealfour.active{
 	position: relative;
-	transform: translateY(4400px);
+	transform: translateY(7145px);
 	opacity: 1;
   }
 
 
   .containerrevealfive{
-	transform: translateY(4500px);
+	transform: translateY(7700px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -419,12 +420,12 @@ b{
 
 .containerrevealfive.active{
 	position: relative;
-	transform: translateY(4800px);
+	transform: translateY(7800px);
 	opacity: 1;
   }
 
   .containerrevealsix{
-	transform: translateY(5500px);
+	transform: translateY(9500px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -432,12 +433,12 @@ b{
   
 .containerrevealsix.active{
 	position: relative;
-	transform: translateY(5680px);
+	transform: translateY(9547px);
 	opacity: 1;
   }
 
 .containerrevealseven{
-	transform: translateY(7200px);
+	transform: translateY(12000px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -445,7 +446,7 @@ b{
   
 .containerrevealseven.active{
 	position: relative;
-	transform: translateY(7500px);
+	transform: translateY(12887px);
 	opacity: 1;
   }
 
@@ -485,17 +486,7 @@ and (orientation: portrait) {
 
   }
 
-  .reveal.active {
-    position: relative;
-    transform: translateY(447px);
-    opacity: 1;
-}
 
-.containerreveal.active {
-    position: relative;
-    transform: translateY(2090px);
-    opacity: 1;
-}
 
 .me {
     height: 458px;
@@ -503,35 +494,7 @@ and (orientation: portrait) {
     margin-left: 8%;
 }
 
-.containerrevealtwo.active {
-    position: relative;
-    transform: translateY(4116px);
-    opacity: 1;
-}
 
-.containerrevealthree.active {
-    position: relative;
-    transform: translateY(4804px);
-    opacity: 1;
-}
-
-.containerrevealfour.active {
-    position: relative;
-    transform: translateY(5215px);
-    opacity: 1;
-}
-
-.containerrevealfive.active {
-    position: relative;
-    transform: translateY(5744px);
-    opacity: 1;
-}
-
-.containerrevealsix.active {
-    position: relative;
-    transform: translateY(6453px);
-    opacity: 1;
-}
 
 img {
 	width: 343px;
@@ -547,11 +510,7 @@ img {
     padding: 0px 0px;
 }
 
-.containerrevealseven.active {
-    position: relative;
-    transform: translateY(8499px);
-    opacity: 1;
-}
+
 
 #subtitleseven{
 	display: flex;
@@ -587,286 +546,192 @@ img {
 
 #titlethree{
 	font-size: 35px;
+	top: 1340%;
 }
 
 #titlefour{
 	font-size: 35px;
+	top: 1810%;
 }
 
 
 
 }
 
+
+/* XR */
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2) {
-		
-		
-		.reveal.active {
-			position: relative;
-			transform: translateY(552px);
-			opacity: 1;
-		}
+    and (-webkit-device-pixel-ratio : 2){
+  #title {
 
-		#subtitleone{
-			margin-left: 31px;
-		}
+	font-size: 35px;
 
-		#titleone{
-			top: 220%;
-		}
+  }
+
+
+
+.me {
+    height: 458px;
+    width: 409px;
+    margin-left: 8%;
+}
+
+
+
+img {
+	width: 343px;
+}
+
+#subtitlesix{
+	margin-left: 5%;
+}
+
+.skem {
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    padding: 0px 0px;
+}
+
+
+
+#subtitleseven{
+	display: flex;
+	flex-direction: column;
+}
+
+.git{
+	margin-left: 80%;
+}
+
+.lin{
+	margin-left: 80%;
+}
+
+.Github {
+    height: 416px;
+    width: 377px;
+}
+
+.linkedin{
+	height: 355px;
+    width: 315px;
+    margin-left: 30px;
+}
+
+#titleone{
+	font-size: 35px;
+}
+
+#titletwo{
+	font-size: 35px;
+	top: 570%;
+}
+
+#titlethree{
+	font-size: 35px;
+	top: 1020%;
+}
+
+#titlefour{
+	font-size: 35px;
+	top: 1350%;
+}
+
+
+
+}
+
+
+/* iphone 12 pro */
+@media only screen 
+    and (device-width : 390px) 
+    and (device-height : 844px){
 
 		#titletwo{
-			top: 440%;
+			top: 650%;
 		}
 
 		#titlethree{
-			top: 708%;
+			font-size: 35px;
+			top: 1060%;
 		}
 
-		#subtitlesix{
-			margin-left: 10%;
+		#titlefour {
+			font-size: 35px;
+			top: 1440%;
 		}
+		
 
+	}
+	
 
-		#subtitlefour{
-			width: 82%;
-			margin-left: 42px;
+	/* Pixel 5 */
+@media only screen 
+and (device-width : 393px) 
+and (device-height : 851px){
+
+	#titletwo{
+		top: 650%;
+	}
+
+	#titlethree{
+		font-size: 35px;
+		top: 1060%;
+	}
+
+	#titlefour {
+		font-size: 35px;
+		top: 1440%;
+	}
+	
+
+}
+
+	/* S8+ */
+	@media only screen 
+	and (device-width : 360px) 
+	and (device-height : 740px){
+	
+		#titletwo{
+			top: 710%;
 		}
-
-		#subtitleseven {
-			margin-left: 26px;
+	
+		#titlethree{
+			font-size: 35px;
+			top: 1200%;
 		}
-
-		#titlefour{
-			top: 930%
+	
+		#titlefour {
+			font-size: 35px;
+			top: 1580%;
 		}
-
-		.git {
-			margin-left: 70%;
-		}
-
-		.lin {
-			margin-left: 70%;
-		}
-
-
-
+		
+	
 	}
 
 
+
+
+	/* S20 Ultra */
 	@media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) {
-
-
-		.reveal.active {
-			position: relative;
-			transform: translateY(540px);
-			opacity: 1;
-		}
-
-		#titleone{
-			top: 220%;
-		}
-
-		#subtitlefour{
-			width: 82%;
-			margin-left: 42px;
-		}
-
-		#titletwo{
-			top: 470%;
-		}
-
-		#titlethree{
-			top: 750%;
-		}
-
-		#titlefour{
-			top: 990%;
-		}
-
-	 }
-
-
-	 /* Pixel 5 */
-	 @media only screen 
-    and (device-width: 393px) 
-    and (device-height: 851px) 
-     {
-
-
-		.reveal.active {
-			position: relative;
-			transform: translateY(544px);
-			opacity: 1;
-		}
-
-		#titleone{
-			top: 220%;
-		}
-
-		#subtitlefour{
-			width: 82%;
-			margin-left: 42px;
-		}
-
-		#titletwo{
-			top: 470%;
-		}
-
-		#titlethree{
-			top: 750%;
-		}
-
-		#titlefour{
-			top: 990%;
-		}
-
-	 }
-
-
-	 /* Samsung Galaxy s8+ */
-	 @media only screen 
-    and (device-width: 360px) 
-    and (device-height: 740px) 
-     {
-
-
-		.reveal.active {
-			position: relative;
-			transform: translateY(544px);
-			opacity: 1;
-		}
-
-		#titleone{
-			top: 220%;
-		}
-
-		#subtitlefour{
-			width: 82%;
-			margin-left: 42px;
-		}
-
-		#titletwo{
-			top: 540%;
-		}
-
-		#titlethree{
-			top: 855%;
-		}
-
-		#titlefour{
-			top: 1120%;
-		}
-
-		.containerreveal.active {
-			position: relative;
-			transform: translateY(1778px);
-			opacity: 1;
-		}
-
-	 }
-
-
-
-
-	 /* Samsung Galaxy s20 Ultra */
-	 @media only screen 
-    and (device-width: 412px) 
-    and (device-height: 915px) 
-     {
-
-
-		.reveal.active {
-			position: relative;
-			transform: translateY(586px);
-			opacity: 1;
-		}
-
-		#titleone{
-			top: 220%;
-		}
-
-		#subtitlefour{
-			width: 82%;
-			margin-left: 42px;
-		}
-
-		#titletwo{
-			top: 430%;
-		}
-
-		#titlethree{
-			top: 690%;
-		}
-
-		#titlefour{
-			top: 910%;
-		}
-
-		.containerreveal.active {
-			position: relative;
-			transform: translateY(2130px);
-			opacity: 1;
-		}
-
-	 }
-
-
-	 /* ipad air */
-	 @media only screen 
-    and (device-width: 820px) 
-    and (device-height: 1180px) 
-     {
-
-
-		#subtitlemain, #subtitletwo, #title, #subtitle,#titleone,#subtitlethree,#subtitlefour,#subtitlefive,#subtitlesix,#subtitleseven,#titletwo,#titlethree,#titlefour{
-			width: 114%;
-		}
-
-		#subtitleone{
-
-			width: 80%;
-		}
-
-		.reveal.active {
-			position: relative;
-			transform: translateY(705px);
-			opacity: 1;
-		}
-
-		#titleone{
-			top: 160%;
-		}
-
-			#subtitlefour {
-				width: 100%;
-				margin-left: 25%;
-			}
-
-
-		#titletwo{
-			top: 290%;
-		}
-
-		#titlethree{
-			top: 460%;
-		}
-
-		#titlefour{
-			top: 620%;
-		}
-
-		.containerreveal.active {
-			position: relative;
-			transform: translateY(2130px);
-			opacity: 1;
-		}
-
-	 }
-
+	and (device-width : 412px) 
+	and (device-height : 915px){
 	
+		#titletwo{
+			top: 590%;
+		}
+	
+		#titlethree{
+			font-size: 35px;
+			top: 980%;
+		}
+	
+		#titlefour {
+			font-size: 35px;
+			top: 1300%;
+		}
+		
+	
+	}
