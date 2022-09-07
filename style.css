@@ -478,8 +478,9 @@ b{
 }
 
 /* For Mobile Portrait View */
-@media screen and (max-device-width: 680px)
-and (orientation: portrait) {
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 667px) {
   #title {
 
 	font-size: 35px;
