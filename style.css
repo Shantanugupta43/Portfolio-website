@@ -366,7 +366,7 @@ b{
 
 
 .containerrevealtwo{
-	transform: translateY(6080px);
+	transform: translateY(6180px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -374,12 +374,12 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(6126px);
+	transform: translateY(6258px);
 	opacity: 1;
   }
 
 .containerrevealthree{
-	transform: translateY(6730px);
+	transform: translateY(6830px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -387,7 +387,7 @@ b{
   
 .containerrevealthree.active{
 	position: relative;
-	transform: translateY(6858px);
+	transform: translateY(6931px);
 	opacity: 1;
   }
 
