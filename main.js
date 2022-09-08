@@ -11,10 +11,10 @@ var audio = function() {
     var sound = new THREE.Audio(listener);
     var loader = new THREE.AudioLoader();
 
-    loader.load('dreamyaud.mp3', (buffer)=> {
+    loader.load('broken.mp3', (buffer)=> {
 
         sound.setBuffer(buffer);
-        sound.setVolume(0.7);
+        sound.setVolume(1);
         sound.setLoop( true );
         
         sound.setVolume( 0.4 );
