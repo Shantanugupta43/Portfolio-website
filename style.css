@@ -140,7 +140,6 @@ left: 0;
 
 #subtitletwo {
 	position: absolute;
-	top: 620%;
 	width: 80%;
 	margin-left: 9%;
 	text-align: center;
@@ -156,7 +155,7 @@ left: 0;
 
 #subtitlethree {
 	position: absolute;
-	top: 680%;
+
 	width: 80%;
 	margin-left: 9%;
 	text-align: center;
@@ -172,7 +171,7 @@ left: 0;
 
 #subtitlefour {
 	position: absolute;
-	top: 730%;
+
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -186,7 +185,7 @@ left: 0;
 
 #subtitlefive {
     position: absolute;
-    top: 790%;
+
     width: 80%;
     margin-left: 9%;
     text-align: center;
@@ -367,7 +366,7 @@ b{
 
 
 .containerrevealtwo{
-	transform: translateY(5700px);
+	transform: translateY(6080px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -375,12 +374,12 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(5890px);
+	transform: translateY(6126px);
 	opacity: 1;
   }
 
 .containerrevealthree{
-	transform: translateY(6530px);
+	transform: translateY(6730px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -388,12 +387,12 @@ b{
   
 .containerrevealthree.active{
 	position: relative;
-	transform: translateY(6626px);
+	transform: translateY(6858px);
 	opacity: 1;
   }
 
 .containerrevealfour{
-	transform: translateY(7030px);
+	transform: translateY(7230px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -401,13 +400,13 @@ b{
   
 .containerrevealfour.active{
 	position: relative;
-	transform: translateY(7145px);
+	transform: translateY(7379px);
 	opacity: 1;
   }
 
 
   .containerrevealfive{
-	transform: translateY(7700px);
+	transform: translateY(7900px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -420,12 +419,12 @@ b{
 
 .containerrevealfive.active{
 	position: relative;
-	transform: translateY(7800px);
+	transform: translateY(8023px);
 	opacity: 1;
   }
 
   .containerrevealsix{
-	transform: translateY(9500px);
+	transform: translateY(9700px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -433,12 +432,12 @@ b{
   
 .containerrevealsix.active{
 	position: relative;
-	transform: translateY(9547px);
+	transform: translateY(9808px);
 	opacity: 1;
   }
 
 .containerrevealseven{
-	transform: translateY(12000px);
+	transform: translateY(13000px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -446,7 +445,7 @@ b{
   
 .containerrevealseven.active{
 	position: relative;
-	transform: translateY(12887px);
+	transform: translateY(13387px);
 	opacity: 1;
   }
 
