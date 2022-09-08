@@ -1,5 +1,5 @@
 
-<h1> 3D Desktop Portfolio Website </h1>
+<h1> 3D Portfolio Website </h1>
 
 Here is a preview of my portfolio website. Have fun!-
 
