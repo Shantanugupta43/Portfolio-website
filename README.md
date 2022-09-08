@@ -3,7 +3,7 @@
 
 Here is a preview of my portfolio website. Have fun!-
 
-Works best on limited mobile devices - iPhone SE , iPhone XR, iPhone 12 Pro, Pixel 5, Samesung Galaxy S8+, Samsung Galaxy S20 Ultra and many more
+Works best on limited mobile devices - iPhone SE , iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra and many more.
 
 Website Link https://shantanugupta.netlify.app/
 
