@@ -7,5 +7,18 @@ Works best on limited mobile devices - iPhone SE , iPhone XR, iPhone 12 Pro, Pix
 
 Website Link https://shantanugupta.netlify.app/
 
-https://user-images.githubusercontent.com/99300527/187596109-6182e49e-a851-47d5-8b83-7317c15f5aa1.mp4
+<h3> Desktop View </h3>
+
+
+
+
+https://user-images.githubusercontent.com/99300527/189064414-a8a1f4cb-c54e-46e6-b93b-a54dda5d4d08.mp4
+
+
+<h3> Mobile View [Device - Samsung Galaxy S8+] </h3>
+
+
+
+
+https://user-images.githubusercontent.com/99300527/189065422-3bbd5485-1ac6-436e-ac6f-12b749b9c972.mp4
 
