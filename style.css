@@ -367,7 +367,7 @@ b{
 
 
 .containerrevealtwo{
-	transform: translateY(6180px);
+	transform: translateY(6420px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -375,7 +375,7 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(6258px);
+	transform: translateY(6441px);
 	opacity: 1;
   }
 
