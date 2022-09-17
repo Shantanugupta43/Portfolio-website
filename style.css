@@ -1,6 +1,7 @@
 body{
 margin:0;
 height:100vh;
+padding-bottom:20px;
 
 
 }   
@@ -733,4 +734,39 @@ and (device-height : 851px){
 		}
 		
 	
+	}
+
+
+
+ 
+	@media only screen 
+	and (device-width : 1440px) 
+	and (device-height : 837px){
+
+		#titletwo {
+			position: absolute;
+			top: 620%;
+		}
+
+		#titlethree {
+			position: absolute;
+			top: 1130%;
+		}
+
+		#titlefour {
+			position: absolute;
+			top: 1560%;
+
+		}
+
+	
+#subtitleseven {
+
+	margin-left: 7%;
+
+}
+
+
+
+
 	}
