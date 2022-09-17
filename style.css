@@ -745,7 +745,7 @@ and (device-height : 851px){
 
 		#titletwo {
 			position: absolute;
-			top: 620%;
+			top: 570%;
 		}
 
 		#titlethree {
@@ -759,11 +759,29 @@ and (device-height : 851px){
 
 		}
 
+		.containerrevealsix.active {
+			position: relative;
+			transform: translateY(10486px);
+			opacity: 1;
+		}
+
 	
 #subtitleseven {
 
 	margin-left: 7%;
 
+}
+
+.containerrevealseven {
+    transform: translateY(15000px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.containerrevealseven.active {
+    position: relative;
+    transform: translateY(15379px);
+    opacity: 1;
 }
 
 
