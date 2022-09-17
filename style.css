@@ -1,7 +1,6 @@
 body{
 margin:0;
 height:100vh;
-padding-bottom:20px;
 
 
 }   
@@ -295,7 +294,7 @@ b{
 #subtitlesix{
 
     position: absolute;
-
+    top: 965%;
     width: 80%;
     margin-left: 9%;
     text-align: center;
@@ -313,7 +312,7 @@ b{
 
 #subtitleseven {
 	position: absolute;
-
+	top: 1270%;
 	width: 40%;
 	text-align: center;
 	z-index: 100;
@@ -367,7 +366,7 @@ b{
 
 
 .containerrevealtwo{
-	transform: translateY(6420px);
+	transform: translateY(6180px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -375,7 +374,7 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(6441px);
+	transform: translateY(6258px);
 	opacity: 1;
   }
 
@@ -734,45 +733,4 @@ and (device-height : 851px){
 		}
 		
 	
-	}
-
-
-
- 
-	@media only screen 
-	and (device-width : 1440px) 
-	and (device-height : 837px){
-
-		#titletwo {
-			position: absolute;
-			top: 570%;
-		}
-
-		#titlethree {
-			position: absolute;
-			top: 1130%;
-		}
-
-		#titlefour {
-			position: absolute;
-			top: 1560%;
-
-		}
-
-		.containerrevealsix.active {
-    position: relative;
-    transform: translateY(10486px);
-    opacity: 1;
-}
-
-	
-#subtitleseven {
-
-	margin-left: 7%;
-
-}
-
-
-
-
 	}
