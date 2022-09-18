@@ -307,16 +307,23 @@ b{
 
 #subtitleseven {
 	position: absolute;
-	top: 1270%;
-	width: 40%;
-	text-align: center;
-	z-index: 100;
-	display: flex;
+    top: 1270%;
+    width: 80%;
+    text-align: center;
+    z-index: 100;
+    display: flex;
     color: white;
     height: max-content;
     font-family: 'Righteous', cursive;
     font-size: 16px;
     margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
 }
 
 .Github{
@@ -511,13 +518,7 @@ img {
 	flex-direction: column;
 }
 
-.git{
-	margin-left: 80%;
-}
 
-.lin{
-	margin-left: 80%;
-}
 
 .Github {
     height: 416px;
@@ -595,13 +596,7 @@ img {
 	flex-direction: column;
 }
 
-.git{
-	margin-left: 80%;
-}
 
-.lin{
-	margin-left: 80%;
-}
 
 .Github {
     height: 416px;
@@ -643,9 +638,6 @@ img {
     and (device-width : 390px) 
     and (device-height : 844px){
 
-		#titletwo{
-
-		}
 
 		#titlethree{
 			font-size: 35px;
@@ -666,9 +658,7 @@ img {
 and (device-width : 393px) 
 and (device-height : 851px){
 
-	#titletwo{
 
-	}
 
 	#titlethree{
 		font-size: 35px;
@@ -688,9 +678,7 @@ and (device-height : 851px){
 	and (device-width : 360px) 
 	and (device-height : 740px){
 	
-		#titletwo{
 
-		}
 	
 		#titlethree{
 			font-size: 35px;
@@ -713,9 +701,7 @@ and (device-height : 851px){
 	and (device-width : 412px) 
 	and (device-height : 915px){
 	
-		#titletwo{
 
-		}
 	
 		#titlethree{
 			font-size: 35px;
