@@ -16,8 +16,7 @@ left: 0;
 }
 
 #title {
-	position: absolute;
-	top: 50%;
+
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -30,8 +29,7 @@ left: 0;
 }
 
 #subtitle {
-	position: absolute;
-	top: 70%;
+
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -60,8 +58,7 @@ left: 0;
 }
 
 #titleone {
-	position: absolute;
-	top: 300%;
+
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -75,8 +72,7 @@ left: 0;
 
 
 #titlethree {
-	position: absolute;
-	top: 1550%;
+
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -90,8 +86,7 @@ left: 0;
 
 
 #titlefour {
-	position: absolute;
-	top: 2130%;
+
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -123,8 +118,8 @@ left: 0;
 }
 
 #titletwo {
-	position: absolute;
-	top: 850%;
+
+	margin-bottom: 147px;
 	width: 100%;
 	text-align: center;
 	z-index: 100;
@@ -366,7 +361,7 @@ b{
 
 
 .containerrevealtwo{
-	transform: translateY(6180px);
+	transform: translateY(6750px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -374,12 +369,12 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(6258px);
+	transform: translateY(6806px);
 	opacity: 1;
   }
 
 .containerrevealthree{
-	transform: translateY(6830px);
+	transform: translateY(7780px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -387,12 +382,12 @@ b{
   
 .containerrevealthree.active{
 	position: relative;
-	transform: translateY(6931px);
+	transform: translateY(7806px);
 	opacity: 1;
   }
 
 .containerrevealfour{
-	transform: translateY(7230px);
+	transform: translateY(8690px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -400,13 +395,13 @@ b{
   
 .containerrevealfour.active{
 	position: relative;
-	transform: translateY(7379px);
+	transform: translateY(8711px);
 	opacity: 1;
   }
 
 
   .containerrevealfive{
-	transform: translateY(7900px);
+	transform: translateY(10000px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -419,12 +414,12 @@ b{
 
 .containerrevealfive.active{
 	position: relative;
-	transform: translateY(8023px);
+	transform: translateY(10095px);
 	opacity: 1;
   }
 
   .containerrevealsix{
-	transform: translateY(9700px);
+	transform: translateY(14900px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -432,12 +427,12 @@ b{
   
 .containerrevealsix.active{
 	position: relative;
-	transform: translateY(9808px);
+	transform: translateY(15102px);
 	opacity: 1;
   }
 
 .containerrevealseven{
-	transform: translateY(13000px);
+	transform: translateY(22001px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -445,7 +440,7 @@ b{
   
 .containerrevealseven.active{
 	position: relative;
-	transform: translateY(13387px);
+	transform: translateY(22297px);
 	opacity: 1;
   }
 
@@ -649,17 +644,17 @@ img {
     and (device-height : 844px){
 
 		#titletwo{
-			top: 650%;
+
 		}
 
 		#titlethree{
 			font-size: 35px;
-			top: 1060%;
+
 		}
 
 		#titlefour {
 			font-size: 35px;
-			top: 1440%;
+
 		}
 		
 
@@ -672,17 +667,17 @@ and (device-width : 393px)
 and (device-height : 851px){
 
 	#titletwo{
-		top: 650%;
+
 	}
 
 	#titlethree{
 		font-size: 35px;
-		top: 1060%;
+
 	}
 
 	#titlefour {
 		font-size: 35px;
-		top: 1440%;
+
 	}
 	
 
@@ -694,17 +689,17 @@ and (device-height : 851px){
 	and (device-height : 740px){
 	
 		#titletwo{
-			top: 710%;
+
 		}
 	
 		#titlethree{
 			font-size: 35px;
-			top: 1200%;
+
 		}
 	
 		#titlefour {
 			font-size: 35px;
-			top: 1580%;
+
 		}
 		
 	
@@ -719,17 +714,17 @@ and (device-height : 851px){
 	and (device-height : 915px){
 	
 		#titletwo{
-			top: 590%;
+
 		}
 	
 		#titlethree{
 			font-size: 35px;
-			top: 980%;
+
 		}
 	
 		#titlefour {
 			font-size: 35px;
-			top: 1300%;
+
 		}
 		
 	
