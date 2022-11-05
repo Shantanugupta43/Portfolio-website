@@ -368,7 +368,7 @@ b{
 
 
 .containerrevealtwo{
-	transform: translateY(6750px);
+	transform: translateY(5050px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -376,12 +376,12 @@ b{
   
 .containerrevealtwo.active{
 	position: relative;
-	transform: translateY(6806px);
+	transform: translateY(5200px);
 	opacity: 1;
   }
 
 .containerrevealthree{
-	transform: translateY(7780px);
+	transform: translateY(5980px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -389,12 +389,12 @@ b{
   
 .containerrevealthree.active{
 	position: relative;
-	transform: translateY(7806px);
+	transform: translateY(6076px);
 	opacity: 1;
   }
 
 .containerrevealfour{
-	transform: translateY(8690px);
+	transform: translateY(6902px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -402,13 +402,13 @@ b{
   
 .containerrevealfour.active{
 	position: relative;
-	transform: translateY(8711px);
+	transform: translateY(7080px);
 	opacity: 1;
   }
 
 
   .containerrevealfive{
-	transform: translateY(9807px);
+	transform: translateY(7807px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -421,12 +421,12 @@ b{
 
 .containerrevealfive.active{
 	position: relative;
-	transform: translateY(9837px);
+	transform: translateY(7905px);
 	opacity: 1;
   }
 
   .containerrevealsix{
-	transform: translateY(14900px);
+	transform: translateY(9900px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -434,12 +434,12 @@ b{
   
 .containerrevealsix.active{
 	position: relative;
-	transform: translateY(15102px);
+	transform: translateY(10102px);
 	opacity: 1;
   }
 
 .containerrevealseven{
-	transform: translateY(22001px);
+	transform: translateY(12720px);
 
 	opacity: 0;
 	transition: all 2s ease;
@@ -447,7 +447,7 @@ b{
   
 .containerrevealseven.active{
 	position: relative;
-	transform: translateY(22297px);
+	transform: translateY(13000px);
 	opacity: 1;
   }
 
