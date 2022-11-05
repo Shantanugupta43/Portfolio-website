@@ -98,6 +98,21 @@ mesh.scale.z =0.8;
 mesh.position.x = 0.00;
 scene.add(mesh);
 
+var meshnewone =new THREE.Mesh(sphere,matcolor);
+meshnewone.scale.x =0.1;
+meshnewone.scale.y =0.1;
+meshnewone.scale.z =0.1;
+meshnewone.position.x = -2;
+scene.add(meshnewone);
+
+var meshnewtwo =new THREE.Mesh(sphere,matcolor);
+meshnewtwo.scale.x =0.1;
+meshnewtwo.scale.y =0.1;
+meshnewtwo.scale.z =0.1;
+meshnewtwo.position.x = 2;
+meshnewtwo.position.y = -3.5;
+scene.add(meshnewtwo);
+
 var spherenewmain = new THREE.SphereGeometry(1,9,2)
 var matcolornewmain = new THREE.MeshLambertMaterial({color:0xFFFFFF});
 
@@ -156,6 +171,8 @@ var render = function(){
 
     requestAnimationFrame(render);
     meshnewmain.rotation.y += 0.006;
+    meshnewone.position.x += 0.003;
+    meshnewtwo.position.x -= 0.003;
     
    
 
