@@ -84,6 +84,18 @@ window.addEventListener('resize',()=>{
 audio();
 
 
+var circle = new THREE.TorusKnotGeometry(20, 0.15, 30, 3, 6)
+var matcolortop = new THREE.MeshLambertMaterial({color:0x45BCFF});
+var meshtop =new THREE.Mesh(circle,matcolortop);
+
+meshtop.scale.x =1.82;
+meshtop.scale.y =1.82;
+meshtop.scale.z =1.82;
+meshtop.position.y = -2;
+meshtop.position.x = 0;
+meshtop.position.z = 0;
+scene.add(meshtop);
+
 
 
 
@@ -173,10 +185,12 @@ var render = function(){
     meshnewmain.rotation.y += 0.006;
     meshnewone.position.x += 0.003;
     meshnewtwo.position.x -= 0.003;
-    
-   
+    meshtop.rotation.z += 0.008;
 
-   
+
+    
+
+
     
    
 
