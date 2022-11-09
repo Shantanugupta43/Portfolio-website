@@ -15,6 +15,8 @@ left: 0;
 
 }
 
+
+
 #title {
 
 	width: 100%;
@@ -215,9 +217,23 @@ left: 0;
 }
 
 .skem{
-	background-color: rgb(207, 207, 207);
+
 	border-radius: 15px;
-	padding: 10px 50px;
+    height: 294px;
+
+    margin-bottom: 180px;
+	margin-left: 30px;
+
+}
+
+.ehu{
+
+	border-radius: 15px;
+
+    margin-bottom: 180px;
+    height: 430px;
+	margin-left: 20px;
+
 }
 
 b{
@@ -532,11 +548,6 @@ img {
 	margin-left: 5%;
 }
 
-.skem {
-    background-color: rgb(207, 207, 207);
-    border-radius: 15px;
-    padding: 0px 0px;
-}
 
 
 
@@ -610,11 +621,6 @@ img {
 	margin-left: 5%;
 }
 
-.skem {
-    background-color: rgb(207, 207, 207);
-    border-radius: 15px;
-    padding: 0px 0px;
-}
 
 
 
