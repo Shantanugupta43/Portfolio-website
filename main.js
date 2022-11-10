@@ -41,7 +41,16 @@ startButton.addEventListener( 'click', function () {
              
             
             } );
-        
+
+            //muting sound when tab changes
+
+            document.addEventListener("visibilitychange", () => {
+                if (document.visibilityState === 'visible') {
+                    sound.setVolume(1);
+                } else {
+                    sound.setVolume(0);
+                }
+              });    
 
 
 
