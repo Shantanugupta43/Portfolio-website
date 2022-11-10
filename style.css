@@ -107,7 +107,7 @@ left: 0;
 	width: 50%;
 	
 	z-index: 100;
-	display: flex;
+	
 	justify-content: space-evenly;
     flex-direction: column;
     color: white;
