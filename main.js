@@ -11,10 +11,10 @@ var audio = function() {
     var sound = new THREE.Audio(listener);
     var loader = new THREE.AudioLoader();
 
-    loader.load('forgettomorrow.mp3', (buffer)=> {
+    loader.load('backgroundaudio.mp3', (buffer)=> {
 
         sound.setBuffer(buffer);
-        sound.setVolume(0.4);
+        sound.setVolume(1);
         sound.setLoop( true );
         
 
@@ -34,7 +34,7 @@ startButton.addEventListener( 'click', function () {
       var endButton = document.getElementById( 'endButton' );
       endButton.addEventListener( 'click', function () {
       
-          sound.setVolume(0.4);
+          sound.setVolume(1);
       
       
       
@@ -61,7 +61,7 @@ var scene= new THREE.Scene();
 var camera= new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000)
 
 camera.position.z = 1.3;
-camera.position.y = 2.3;
+camera.position.y = 1.3;
 
 
 
