@@ -46,9 +46,9 @@ startButton.addEventListener( 'click', function () {
 
             document.addEventListener("visibilitychange", () => {
                 if (document.visibilityState === 'visible') {
-                    sound.setVolume(1);
+                    sound.play();
                 } else {
-                    sound.setVolume(0);
+                    sound.pause();
                 }
               });    
 
