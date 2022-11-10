@@ -14,11 +14,33 @@ var audio = function() {
     loader.load('forgettomorrow.mp3', (buffer)=> {
 
         sound.setBuffer(buffer);
-        sound.setVolume(1);
+        sound.setVolume(0.4);
         sound.setLoop( true );
         
-        sound.setVolume( 0.4 );
+
         sound.play();
+
+        var startButton = document.getElementById( 'startButton' );
+startButton.addEventListener( 'click', function () {
+
+    sound.setVolume(0);
+
+
+
+       
+      
+      } );
+
+      var endButton = document.getElementById( 'endButton' );
+      endButton.addEventListener( 'click', function () {
+      
+          sound.setVolume(0.4);
+      
+      
+      
+             
+            
+            } );
         
 
 
@@ -27,6 +49,9 @@ var audio = function() {
 
 
 }
+
+
+
 
 
 
@@ -51,7 +76,7 @@ function updateCamera(ev) {
     let div1 = document.getElementById("div1");
     camera.position.z = 1.3;
     
-    camera.position.y = 1.4 - window.scrollY / 700.0;
+    camera.position.y = 2.3 - window.scrollY / 1500.0;
     
 
     
