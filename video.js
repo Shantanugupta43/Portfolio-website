@@ -1,7 +1,12 @@
+
+
+
 var startButton = document.getElementById( 'startButton' );
 startButton.addEventListener( 'click', function () {
 
-  init();
+  var timeout;
+  timeout = setTimeout(init,400);
+
 
 } );
 

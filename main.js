@@ -50,11 +50,96 @@ startButton.addEventListener( 'click', function () {
                 } else {
                     sound.pause();
                 }
-              });    
+              });  
+              
+              var listenerone =  new THREE.AudioListener();
+
+              camera.add(listenerone);
+          
+              var soundone = new THREE.Audio(listenerone);
+              var loaderone = new THREE.AudioLoader();
+              
+
+
+              loaderone.load('click.mp3', (buffer)=> {
+
+                soundone.setBuffer(buffer);
+                soundone.setVolume(0);
+                soundone.setLoop( false );
+                
+        
+                
+        
+                var startClick = document.getElementById('startButton');
+                startClick.addEventListener('click', function () {
+        
+            soundone.setVolume(0.4);
+            soundone.play();
+        
+        
+} );
+
+
+        
+
+
+
+
+
+                }); 
+
+                var listenertwo =  new THREE.AudioListener();
+
+                camera.add(listenertwo);
+            
+                var soundtwo = new THREE.Audio(listenertwo);
+                var loadertwo = new THREE.AudioLoader();
+
+
+
+                loadertwo.load('endclick.mp3', (buffer)=> {
+
+                    soundtwo.setBuffer(buffer);
+                    soundtwo.setVolume(0);
+                    soundtwo.setLoop( false );
+                    
+            
+                    
+            
+                    var endClick = document.getElementById('endButton');
+                    endClick.addEventListener('click', function () {
+            
+                soundtwo.setVolume(0.4);
+                soundtwo.play();
+            
+            
+    } );
+    
+    
+            
+    
+    
+    
+    
+    
+                    }); 
 
 
 
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
