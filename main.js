@@ -73,7 +73,7 @@ startButton.addEventListener( 'click', function () {
                 var startClick = document.getElementById('startButton');
                 startClick.addEventListener('click', function () {
         
-            soundone.setVolume(0.4);
+            soundone.setVolume(1);
             soundone.play();
         
         
@@ -109,7 +109,7 @@ startButton.addEventListener( 'click', function () {
                     var endClick = document.getElementById('endButton');
                     endClick.addEventListener('click', function () {
             
-                soundtwo.setVolume(0.4);
+                soundtwo.setVolume(1);
                 soundtwo.play();
             
             
