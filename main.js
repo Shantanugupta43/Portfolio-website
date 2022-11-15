@@ -11,10 +11,10 @@ var audio = function() {
     var sound = new THREE.Audio(listener);
     var loader = new THREE.AudioLoader();
 
-    loader.load('backgroundaudio.mp3', (buffer)=> {
+    loader.load('spacemusic.mp3', (buffer)=> {
 
         sound.setBuffer(buffer);
-        sound.setVolume(1);
+        sound.setVolume(0.4);
         sound.setLoop( true );
         
 
@@ -34,7 +34,7 @@ startButton.addEventListener( 'click', function () {
       var endButton = document.getElementById( 'endButton' );
       endButton.addEventListener( 'click', function () {
       
-          sound.setVolume(1);
+          sound.setVolume(0.4);
       
       
       
