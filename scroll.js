@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function () {
       
         switch (sectionNumber) {
           case 0:
-            document.body.style.background = "radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(60 10 10) 90%)"; /* set background color for first section */
+            document.body.style.background = "radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(0 0 0) 90%)"; /* set background color for first section */
             break;
           case 1:
             document.body.style.background = "radial-gradient(circle, rgb(0, 0, 0) 25%, rgb(102 75 11) 90%)"; /* set background color for second section */
@@ -25,19 +25,19 @@ window.addEventListener('DOMContentLoaded', function () {
             document.body.style.background = "radial-gradient(circle, rgb(2 46 60) 25%, rgb(0 0 0) 90%)"; /* set background color for fifth section */
             break;
           case 5:
-            document.body.style.background = "radial-gradient(circle, rgb(2 46 60) 25%, rgb(0 0 0) 90%)"; /* set background color for fifth section */
+            document.body.style.background = "radial-gradient(circle, rgb(2 46 60) 25%, rgb(0 0 0) 90%)"; /* set background color for sixth section */
             break;
           case 6:
-            document.body.style.background = "radial-gradient(circle, rgb(46, 43, 43) 35%, rgb(84 80 80) 90%)"; /* set background color for fifth section */
+            document.body.style.background = "radial-gradient(circle, rgb(46, 43, 43) 35%, rgb(84 80 80) 90%)"; /* set background color for seventh section */
             break;
           case 7:
-            document.body.style.background = "radial-gradient(circle, rgb(46, 43, 43) 35%, rgb(84 80 80) 90%)"; /* set background color for fifth section */
+            document.body.style.background = "radial-gradient(circle, rgb(46, 43, 43) 35%, rgb(84 80 80) 90%)"; /* set background color for eighth section */
             break;
           case 8:
-            document.body.style.background = "radial-gradient(circle, rgb(175 16 16) 35%, rgb(31, 30, 56) 90%)"; /* set background color for fifth section */
+            document.body.style.background = "radial-gradient(circle, rgb(175 16 16) 35%, rgb(31, 30, 56) 90%)"; /* set background color for nineth section */
             break;
           case 9:
-            document.body.style.background = "radial-gradient(circle, rgb(175 16 16) 35%, rgb(31, 30, 56) 90%)"; /* set background color for fifth section */
+            document.body.style.background = "radial-gradient(circle, rgb(175 16 16) 35%, rgb(31, 30, 56) 90%)"; /* set background color for tenth section */
             break;
         }
       });
