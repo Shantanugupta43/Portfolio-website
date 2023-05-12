@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function () {
       
         switch (sectionNumber) {
           case 0:
-            document.body.style.background = "radial-gradient(circle, rgb(0 0 0) 50%, rgb(18 60 11) 90%)"; /* set background color for first section */
+            document.body.style.background = "radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(60 10 10) 90%)"; /* set background color for first section */
             break;
           case 1:
             document.body.style.background = "radial-gradient(circle, rgb(0, 0, 0) 25%, rgb(102 75 11) 90%)"; /* set background color for second section */
