@@ -150,7 +150,7 @@ body {
 
 article {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     column-gap: 257px;
 }
