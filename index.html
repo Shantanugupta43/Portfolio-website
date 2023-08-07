@@ -28,7 +28,7 @@
 <body>
     <header>
     <img src="images/logo.png" alt ="logo" class="logo">
-    <video class="vd-h"  autoplay loop playsinline muted>
+    <video id="vd-h" class="hidden" autoplay loop playsinline muted>
         <source src="vid.mp4" type="video/mp4">
     </video>
     <nav>
@@ -38,11 +38,18 @@
             <li><a href="project.html">Project Showroom</a></li>
             <li><a href="press.html">Press</a></li>
             <li><a href="contact.html">Contact Me</a></li>
+            <li><button id="myButton">My intro</button></li>
         </ul>
     </nav>
     </header>
 
     <main class="intro">
+        <div id="overlay" class="hidden">
+            <section class="videopos">
+                <button id="closevid">Close</button>
+            <video controls id="myVideo" class="hidden" src="Intro.mp4"></video>
+            </section>
+        </div>
         <section class="projectdescription">
         <h1>Hi I am Shantanu Gupta. A Web Designer, an Artist and a Software Developer living in United Kingdom.</h1>
         <p>Interested to know more.. Click on <a href="about.html" class="fade-link">About My Journey</a></p>
